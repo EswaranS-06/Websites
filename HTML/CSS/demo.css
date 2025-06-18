@@ -4,9 +4,6 @@ h1{
     border: 10px;
     border-color:black
 }
-#intro {
-    background-color: blueviolet;
-}
 section{
     margin: 0% 0% 1px 0%;
     padding: 0% 0% 0% 20px;
@@ -18,7 +15,7 @@ p{
     padding: 0% 0% 0% 3%;
 }
 aside{
-    margin: -129px 0% 0% 461px;
+    margin: -14.5% 0% 0% 50.2%;
     padding: 0% 0% 0% 20px;
     border-color: black;
     border-style: solid;
@@ -32,7 +29,7 @@ article{
     border-width: 5px;
 }
 #edu{
-    margin: -52px 50% 0% 0%;
+    margin: -6% 50% 0% 0%;
     padding: 0% 0% 0% 20px;
     border-color: black;
     border-style: solid;
