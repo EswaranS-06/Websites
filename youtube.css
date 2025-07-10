@@ -1,0 +1,11 @@
+.thumbnail {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.sreach-bar {
+    font-size: 20px;
+    margin-left: auto;
+}
