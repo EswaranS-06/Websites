@@ -1,11 +1,34 @@
 .thumbnail {
-    height: 300px;
     width: 300px;
-    object-fit: cover;
-    border-radius: 100%;
 }
 
 .sreach-bar {
     font-size: 20px;
-    margin-left: auto;
+    display: block;
+}
+
+.video-title {
+    width: 300px;
+}
+
+.video-preview {
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0px 6px;
+}
+
+.channel-icon{
+    height: 124px;
+    width: 50px;
+    object-fit:cover;
+    object-position: top;
+}
+
+.channel-name {
+
+}
+
+.view-count {
+
 }
