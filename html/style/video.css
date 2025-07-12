@@ -5,6 +5,24 @@
     row-gap: 32px;
 }
 
+@media (max-width : 750px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width : 1000px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width : 751px) and (max-width: 999px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 .thumbnail-div {
     position: relative;
     z-index: -1;
