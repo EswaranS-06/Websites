@@ -71,7 +71,46 @@
 
 .sreach-button-icon {
     height: 24px;
-    flex: 1;
+    flex:1;
+}
+
+.voice-sreach,
+.upload-div,
+.youtube-apps-div,
+.notifications-div,
+.profile-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sreach-button .tooltip,
+.voice-sreach .tooltip,
+.upload-div .tooltip,
+.youtube-apps-div .tooltip,
+.notifications-div .tooltip,
+.profile-div .tooltip {
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-size: 12px;
+    top: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    white-space: nowrap;
+}
+
+.sreach-button:hover .tooltip,
+.voice-sreach:hover .tooltip,
+.upload-div:hover .tooltip,
+.youtube-apps-div:hover .tooltip,
+.notifications-div:hover .tooltip,
+.profile-div:hover .tooltip {
+    opacity: 1;
 }
 
 .voice-sreach {
