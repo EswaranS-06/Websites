@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flex-Box</title>
+    <style>
+      .grid-div {
+        margin: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+      }
+
+      .divA {
+        background-color: aqua;
+      }
+
+      .divB {
+        background-color: chartreuse;
+        border-width: 4px;
+        border-color: rgb(68, 0, 255);
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-div">
+      <div class="divA">Div Hello</div>
+      <div class="divB">
+        <p>hwllo</p>
+      </div>
+    </div>
+
+    <div
+      class="grid-div"
+      style="margin: 30px; display: flex; flex-direction: row"
+    >
+      <div class="divA" style="width: 100px">Div Hello</div>
+      <div class="divB" style="flex: 1">
+        <p>hwllo</p>
+      </div>
+    </div>
+
+    <div
+      class="grid-div"
+      style="margin: 30px; display: flex; flex-direction: row"
+    >
+      <div class="divA" style="width: 100px">Div Hello</div>
+      <div class="divB" style="flex: 1">
+        <p>hwllo</p>
+      </div>
+      <div class="divA" style="flex: 2jjj">
+        <p>hwllo</p>
+      </div>
+    </div>
+
+    <div
+      class="grid-div"
+      style="
+        margin: 30px; 
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        
+        ">
+      <div class="divA" style="width: 100px">Div 1 Hello</div>
+      <div class="divB" style="width: 100px">Div 1 Hello</div>
+      <div class="divA" style="width: 100px">Div 1 Hello</div>
+    </div>
+  </body>
+</html>
