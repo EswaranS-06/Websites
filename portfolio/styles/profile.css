@@ -1,0 +1,66 @@
+.main-bg {
+    display: flex;
+    flex-direction: row;
+    background-color: #E07143;
+    border-radius: 25px;
+    margin-right: 130px;
+    position: relative;
+}
+
+.pro-links {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 35px;
+    right: 38px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+}
+
+.pro-link {
+    flex: 1fr;
+    object-fit: contain;
+    width: 24px;
+}
+
+.pro-img-box {
+    flex: 1fr;
+    display: flex;
+    flex-direction: column;
+    background-color: #8685EF;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    margin: 40px 20px 40px 50px;
+    border-top-right-radius: 150px ;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+    box-shadow: inset 8px -8px 4px rgba(79, 79, 79, 0.5)
+}
+
+.pro-img {
+    flex: 1fr;
+    display: block;
+    object-fit: fill;
+    max-width: 100%;
+}
+
+.pro-info {
+    flex: 2fr;
+    color: aliceblue;
+    font-size: 78px;
+    font-weight: 900;
+    display: inline;
+    padding-top: 17%;
+    padding-left: 2%;
+}
+
+.info-career, .info-location{
+    font-size:38px;
+}
+
+.pro-links {
+    position: absolute;
+}
